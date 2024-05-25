@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="34dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="84dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 reviews, 0 draft, 0 Photos"
+        android:textStyle="bold"
+        android:layout_marginTop="166dp"
+        android:layout_marginStart="84dp"
+        android:textSize="10dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profilee"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="30dp"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        app:itemTextColor="@color/CoralReef"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:menu="@menu/bottom_menu"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="190dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/CoralReef"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#555555"
+            android:layout_marginStart="30dp"
+            android:text="Write a review"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/CoralReef"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textSize="10dp"
+            android:layout_marginStart="20dp"
+            android:text="Upload a photo"
+            android:textColor="#555555"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/know"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What to know"
+        android:layout_below="@+id/linear"
+        android:textStyle="bold"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="34dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#686B5A"/>
+
+</RelativeLayout>

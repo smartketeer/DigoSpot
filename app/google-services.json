@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042406285514",
+    "project_id": "digospot-b146e",
+    "storage_bucket": "digospot-b146e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042406285514:android:5c78dad21ccd49390b1433",
+        "android_client_info": {
+          "package_name": "com.example.digospot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0EJ1rytrYb_n3tYJw5s2Mjfe67wGzdy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

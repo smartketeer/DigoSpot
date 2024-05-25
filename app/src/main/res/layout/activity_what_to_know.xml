@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5E422929"
+    tools:context=".WhatToKnowActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/nays">
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:text="We want you to write us a review...or two, or three..."
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="340dp"/>
+
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="460dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="460dp"
+            android:text="You may have heard (but just in case you didn't), we hit a real milestone: We've reached a billion reviews and contributions from our community of travelers. That's a billion reviews, tips, photos, likes, comments, and long-running forum posts that have made us all better and smarter travelers. And now? Well, we're hoping to get a billion more. So we're asking: Have you written a review? If not, maybe today's the day (it can can be about anything-a hotel, a restaurant, a destination, a cool thing to do...). And just in case you're wondering why you should write a review and and how to write a good one, we've got your back. To help you get started, here are answers to a few common questions."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rock"
+            android:layout_width="340dp"
+            android:layout_height="460dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="960dp"
+            android:textColor="@color/black"
+            android:background="@drawable/rock"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/socks"
+            android:layout_width="340dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/rock"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:text="So why should I write a review?"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="460dp"
+            android:layout_marginStart="30dp"
+            android:layout_below="@+id/socks"
+            android:layout_marginTop="7dp"
+            android:text="We're all about our community and look to you for the in-depth, been-there-done-that guidance -things like whether or not a hotel's bedsheets are too rough, the infinity pool is as dreamy as the photos, the views from the top of the mountain are worth the death-defying hike up, and so much more. You're the truth-teller and when you share the good, the bad, and the meh, it goes a long way toward helping another traveler plan their dream trip, Paying it forward is always a good thing."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

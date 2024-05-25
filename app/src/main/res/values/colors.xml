@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="CoralReef">#CBC1AB</color>
+    <color name="Rangitoto">#3E3D2A</color>
+    <color name="WillowGrove">#656C5D</color>
+    <color name="TobaccoBrown">#7C6444</color>
+
+</resources>

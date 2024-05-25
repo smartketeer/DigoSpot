@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".ProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp">
+
+
+        <ImageButton
+            android:id="@+id/arrow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icons8_double_left_80" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="270dp"
+            android:background="#7A6546"
+            android:outlineSpotShadowColor="@color/black"
+            android:src="@drawable/edit" />
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/profilee"/>
+
+            <TextView
+                android:id="@+id/neyms"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="123dp"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="UserName"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="36dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="21dp">
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="Share a little about yourselt so other travelers can get to know you!"/>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/share"
+            android:layout_marginTop="30dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
